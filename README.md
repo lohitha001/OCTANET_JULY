@@ -1,2 +1,1 @@
-# OCTANET_JULY
-A landing page is a webpage designed to persuade users to take one specific action. 
+TASK-1 LANDING PAGE CLICK HERE TO VIEW LIVE PAGE https://lohitha001.github.io/OCTANET_JULY/TASK-1/
