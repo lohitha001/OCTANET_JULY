@@ -1,0 +1,666 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .logo img {
+    width: 120px;
+    margin: 7px 15px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    width: 60%;
+    height: 49px;
+    padding: 7px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 9px;
+  }
+  
+  .nav-menu ul li {
+    margin: 0px 13px;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    
+  }
+  .nav-meny ul li a:hover {
+    opacity: 1;
+  }
+  
+  .right-nav {
+    margin: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px 14px;
+  }
+  
+  .right-nav li {
+    padding: 0px 24px;
+    list-style: none;
+  }
+  
+  .searchbar {
+    width: 290px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 6px 8px;
+  }
+  .show {
+    display: none;
+  }
+  
+  .right-nav a {
+    color: gray;
+  }
+  
+  .burger {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    left: 0%;
+    top: 10px;
+  }
+  
+  .line {
+    width: 20px;
+    height: 3px;
+    background-color: gray;
+    opacity: 0.7;
+    margin: 3px 2px;
+  }
+  
+  .line :hover {
+    opacity: 1;
+  }
+  
+  .showcase {
+    height: 330px;
+    background-color: gainsboro;
+    display: flex;
+    margin: 52px 50px;
+  }
+  
+  .leftside-showcase {
+    width: 50%;
+    margin: 53px 140px;
+  }
+  .leftside-showcase p {
+    margin-bottom: 26px;
+  }
+  
+  .blackbtn {
+    background-color: black;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: whitesmoke;
+  }
+  
+  .rightside-showcase {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 73px;
+  }
+  
+  .image-showcase {
+    width: 250px;
+    height: 130px;
+  }
+  
+  .card-img {
+    width: 100%;
+    background-color: gainsboro;
+  }
+  
+  .grid-sect-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 32px 12px;
+  }
+  
+  .bluebtn {
+    text-decoration: none;
+    color: royalblue;
+  }
+  
+  #drive {
+    background-color: gainsboro;
+  }
+  
+  .drive-sect {
+    background: url("https://images.pexels.com/photos/4050362/pexels-photo-4050362.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 56px;
+  }
+  
+  .written {
+    float: right;
+    margin: 146px 89px;
+  }
+  
+  .written-2 {
+    height: 190px;
+    text-align: center;
+    display: none;
+  }
+  
+  .written-2 p {
+    margin-bottom: 33px;
+  }
+  
+  .written p {
+    margin-bottom: 30px;
+  }
+  
+  #head {
+    margin: 4px 12px;
+  }
+  
+  .grid-sect-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 32px 12px;
+  }
+  
+  .covid-sect {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px auto;
+  }
+  
+  .response {
+    margin-bottom: 12px;
+  }
+  
+  .response h1 {
+    margin: 4px;
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  .response p {
+    margin-bottom: 18px;
+  }
+  
+  .response a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 254px;
+    color: black;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+  }
+  
+  .social-media h5 {
+    margin: 4px 14px;
+    color: gray;
+  }
+  
+  .social-media a {
+    margin: 4px 9px;
+  }
+  
+  #fb {
+    width: 48px;
+  }
+  
+  #twitter {
+    width: 38px;
+  }
+  
+  #yt {
+    width: 33px;
+  }
+  
+  #follow {
+    margin: 15px;
+  }
+  
+  .imp-links {
+    background-color: gainsboro;
+  }
+  
+  .links {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 8px;
+    line-height: 2.5;
+  }
+  
+  .links li {
+    list-style: none;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+  }
+  
+  .links h3 {
+    color: rgb(75, 72, 72);
+  }
+  
+  /* Styling our footer  */
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 51px;
+    margin: 0 36px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-links li {
+    list-style: none;
+  }
+  .footer-links a {
+    text-decoration: none;
+    margin: 0 14px;
+    color: rgb(94, 93, 93);
+  }
+  .footer a i {
+    margin: 0px 4px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+  }
+  
+  @media all and (max-width: 1214px) {
+    .leftside-showcase {
+      width: 73%;
+      margin: 53px 94px;
+    }
+    .written {
+      margin: 159px 28px;
+    }
+  
+    .links h3 {
+      font-size: 16px;
+    }
+  
+    .links li a {
+      font-size: 15px;
+    }
+  
+    .footer a {
+      font-size: 14px;
+    }
+  
+    .nav-menu {
+      font-size: 15px;
+    }
+  }
+  
+  @media all and (max-width: 1026px) {
+    .drive-sect {
+      height: 330px;
+    }
+    .written {
+      margin: 83px 12px;
+    }
+    .nav-menu {
+      font-size: 14px;
+    }
+  
+    .leftside-showcase {
+      margin: 53px 81px;
+    }
+  
+    .card {
+      font-size: 15px;
+    }
+  
+    .bluebtn {
+      padding: 0px 27px;
+    }
+  }
+  
+  @media all and (max-width: 1002px) {
+    .leftside-showcase p {
+      font-size: 14px;
+    }
+  
+    .blackbtn {
+      font-size: 14px;
+    }
+  
+    .card {
+      font-size: 14px;
+    }
+  
+    .bluebtn {
+      padding: 0px 0px;
+    }
+  
+    .written {
+      margin: 94px 4px;
+    }
+  
+    .written a {
+      margin: 85px;
+    }
+  
+    .links ul li h3 {
+      font-size: 13px;
+    }
+  
+    .links ul li a {
+      font-size: 13px;
+    }
+  }
+  
+  @media all and (max-width: 958px) {
+    .leftside-showcase p {
+      font-size: 13px;
+    }
+  
+    .rightside-showcase {
+      width: 28%;
+    }
+  
+    .written {
+      margin: 94px 28px;
+    }
+  
+    .written p {
+      font-size: 14px;
+    }
+  
+    .written h2 {
+      font-size: 23px;
+      margin-top: 19px;
+    }
+  }
+  
+  @media all and (max-width: 894px) {
+    .leftside-showcase {
+      margin: 53px 60px;
+    }
+  
+    .drive-sect {
+      height: 294px;
+    }
+  
+    .written {
+      margin: 62px 12px;
+    }
+  
+    .nav-menu ul {
+      cursor: pointer;
+      position: absolute;
+      flex-direction: column;
+      left: 0%;
+      top: 0px;
+      background-color: #f2f2f2;
+      margin: 0px 0px;
+      height: 800px;
+      line-height: 2.8;
+      padding: 34px 54px;
+      opacity: 0.9;
+    }
+  
+    .show-navmenu {
+      opacity: 0;
+    }
+  
+    .nav-menu {
+      width: 0;
+    }
+  
+    .nav-menu ul li {
+      margin: 12px;
+    }
+  
+    .burger {
+      display: block;
+      margin: 0px 19px;
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: flex-end;
+      margin: auto;
+      width: 60%;
+    }
+  
+    .right-nav {
+      width: 40%;
+    }
+  }
+  
+  @media all and (max-width: 700px) {
+    .showcase {
+      height: 400px;
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .rightside-showcase {
+      width: 250px;
+    }
+  
+    .leftside-showcase {
+      width: 400px;
+      margin-top: -56px;
+      text-align: center;
+    }
+  
+    .grid-sect-1 {
+      grid-template-columns: repeat(2, 1fr);
+      width: 489px;
+      margin: auto;
+      grid-gap: 73px;
+    }
+  
+    .grid-sect-2 {
+      grid-template-columns: repeat(2, 1fr);
+      width: 489px;
+      margin: auto;
+      grid-gap: 43px;
+    }
+  
+    .drive-sect {
+      height: 250px;
+    }
+  
+    .written {
+      display: none;
+    }
+  
+    .written-2 {
+      display: block;
+    }
+  
+    .response h1 {
+      font-size: 26px;
+      text-align: center;
+    }
+  
+    .response p {
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    .response a {
+      font-size: 14px;
+      text-align: center;
+      margin: 0px 200px;
+    }
+  
+    .links {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .footer a {
+      margin: 0px 12px;
+      font-size: 13px;
+    }
+  
+    #globe-lang {
+      margin-bottom: 8px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .drive-sect {
+      height: 190px;
+    }
+  }
+  
+  @media all and (max-width: 490px) {
+    .grid-sect-1 {
+      grid-template-columns: 1fr;
+      width: 270px;
+      overflow: hidden;
+    }
+  
+    .grid-sect-2 {
+      grid-template-columns: 1fr;
+      margin: auto;
+      width: 270px;
+      overflow: hidden;
+    }
+  
+    .written-2 h2 {
+      font-size: 22px;
+    }
+  
+    .written-2 p {
+      font-size: 14px;
+    }
+  
+    .written-2 a {
+      font-size: 12px;
+    }
+  
+    .drive-sect {
+      height: 140px;
+    }
+  
+    .response h1 {
+      font-size: 20px;
+      margin: 15px;
+    }
+  
+    .response p {
+      font-size: 13px;
+    }
+  
+    .response a {
+      margin: auto;
+      padding: 0px 120px;
+    }
+  
+    .links {
+      grid-template-columns: 1fr;
+    }
+    .right-nav {
+      margin: 0px;
+    }
+  
+    .right-nav li {
+      padding: 0px 17px;
+    }
+  
+    .burger {
+      margin: 7px;
+    }
+  
+    .logo img {
+      margin: 0px -30px;
+    }
+  
+    .showcase {
+      width: 100%;
+      margin: 52px 0px;
+    }
+  
+    .written-2 {
+      height: 150px;
+    }
+  
+    .right-nav {
+      padding: 4px 0px;
+    }
+  
+    .leftside-showcase h2 {
+      font-size: 24px;
+    }
+  
+    .leftside-showcase p {
+      font-size: 14px;
+    }
+    .nav-bar {
+      width: 100%;
+    }
+  }
+  
+  @media all and (max-width: 400px) {
+    #drive {
+      width: auto;
+    }
+  
+    .showcase {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+    }
+  
+    .covid-sect {
+      width: auto;
+    }
+  
+    .imp-links {
+      width: auto;
+    }
+  
+    .nav-bar {
+      width: auto;
+    }
+  
+    .rightside-showcase {
+      margin: 58px;
+    }
+    .social-media h5 {
+      font-size: 20px;
+    }
+  }
+  
